@@ -1,0 +1,16 @@
+<script>
+    var arr=['test','madam','level','primer','kajak','football','anna'];
+
+    function is_palindrome(string){
+        for (i=0; i<string.length; i++)
+        {
+            if (string[i] != string[string.length-1-i])
+            {
+                return console.log('false');
+            }
+        }
+        return console.log('true');
+    }
+    console.log('default is [test, madam, level, primer, kajak, football, anna] open source code to change it and try another example');
+    is_palindrome(arr[1]);   // just change number in (arr[x]) to chek for another element of array OR put a string like 'sadasdsdas' for example
+</script>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Tips</title>
+
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>PRESMETKA ZA BAKSIZ</h1>
+        </div>
+        <div class="card-body">
+
+
+
+        <p>Cena na cela smetka</p>
+        $<input type="number" id="smetka">
+
+        <p>Kolku ste zadovolni od uslugata?</p>
+        <select id="usluga" name="usluga">
+            <option value="30">30% Odlicno</option>
+            <option value="20">20% Mnogu dobro</option>
+            <option value="15">15% OK</option>
+            <option value="10">10% Dovolno</option>
+            <option value="5">5% Katastrofa</option>
+        </select>
+
+
+        <p>Kolku lugje go delat baksizot?</p>
+        <input type="number" id="vraboteni">vraboteni
+        <br>
+        <button type="button" onclick="calculate_tips()">PRESMETAJ!</button>
+
+    
+        <div id="tip_calculated"></div>
+
+        </div>
+      </div>
+      <script src="functions.js"></script>
+</body>
+</html>
